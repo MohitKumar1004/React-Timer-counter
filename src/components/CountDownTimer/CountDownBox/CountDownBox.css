@@ -1,0 +1,36 @@
+.countdown * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.countdown.box *{
+  position: relative;
+}
+.countdown.box.circles svg circle {
+  position: relative;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  fill: transparent;
+}
+.countdown.box {
+  position: relative;
+}
+.countdown.box svg{
+  position: relative;
+}
+.countdown.box.left {
+  position: absolute;
+  top:45%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 20px;
+}
+.countdown.box.label {
+  margin-top: 10%;
+  position: relative;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}

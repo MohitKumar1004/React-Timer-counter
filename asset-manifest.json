@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ctss/static/css/main.14cbdfa2.css",
+    "main.js": "/ctss/static/js/main.acefcf0f.js",
+    "static/media/Timer-background.jpg": "/ctss/static/media/Timer-background.81939128b55d31c04fc5.jpg",
+    "index.html": "/ctss/index.html",
+    "main.14cbdfa2.css.map": "/ctss/static/css/main.14cbdfa2.css.map",
+    "main.acefcf0f.js.map": "/ctss/static/js/main.acefcf0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14cbdfa2.css",
+    "static/js/main.acefcf0f.js"
+  ]
+}

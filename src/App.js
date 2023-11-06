@@ -5,17 +5,15 @@ import Navbar from './components/NavBar/Navbar';
 
 function App() {
   return (
-    <div className="App">
       <BrowserRouter>
         <Navbar/>
-        <Routes basepath="/">
-          <Route exact path="/CloackTSSytem" element={<center>Home</center>}/>
-          <Route exact path="/Timer" element={<Timer/>}/>
-          <Route exact path="/StopWatch" element={<StopWatch/>}/>
+        <Routes basepath="/React-Timer-counter">
+          <Route exact path="/React-Timer-counter" element={<center>Home</center>}/>
+          <Route exact path="/React-Timer-counter/Timer" element={<Timer/>}/>
+          <Route exact path="/React-Timer-counter/StopWatch" element={<StopWatch/>}/>
           <Route exact path="*" element={<center>Page Not Found</center>}/>
         </Routes>
       </BrowserRouter>
-    </div>
   );
 }
 

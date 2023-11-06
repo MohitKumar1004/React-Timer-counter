@@ -121,7 +121,7 @@ const Timer = (props) => {
   ]);
   
   return (
-    <div className="wrapper d-flex flex-column text-center vw-70" style={{backgroundImage:`url(${Background})`}}>
+    <div className="wrapper d-flex flex-column text-center vw-100" style={{backgroundImage:`url(${Background})`}}>
         <h1>
           Time until: <span>{props.date}</span>
         </h1>
